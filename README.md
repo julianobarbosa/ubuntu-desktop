@@ -2,6 +2,10 @@
 
 #Python3
 PACKAGES="
+exuberant-ctags
+ncurses-term
+python-jinja2 
+curl
 openssh-server 
 ttf-mscorefonts-installer 
 tmux 
