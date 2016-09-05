@@ -2,8 +2,9 @@
 
 #Python3
 PACKAGES="
+openssh-server \
 ttf-mscorefonts-installer \
-tumux \
+tmux \
 tmuxinator \
 screen \
 vim-gui-common \
@@ -23,3 +24,5 @@ git
 "
 
 apt-get install $PACKAGES
+
+sudo systemctl enable ssh
